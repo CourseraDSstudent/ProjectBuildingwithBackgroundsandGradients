@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vw;
+    background-color: rgb(39, 38, 38);
+    overflow: hidden;
+}
+
+#top {
+    display: block;
+    min-height: 65px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none transparent;
+    background-color: palegoldenrod;
+}
+
+#globalheader {
+    height: 36px;
+    top: 18px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    width: 980px;
+    height: 36px;
+    margin: 18px auto;
+    text-align: left;
+    z-index: 9998;
+    /* background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalheader.png) repeat-x; */
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background-color: rgb(150, 148, 150);
+}
+
+#billboard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 292px;
+    left: 0;
+    overflow: hidden;
+    /* background-color: palegreen; */
+    background: url(./background-and-gradients/your_verse_hero.jpg) no-repeat;
+    background-position: 50% 90%;
+}
+
+
+/* .hero-your-verse {
+    position: absolute;
+    position: relative;
+    top: 50%;
+    margin-top: -400px;
+    width: 1440px;
+    height: auto;
+    background: none;
+    background-color: rgb(206, 238, 206);
+    text-align: center;
+} */
+
+.hero-your-verse {
+	/* position: absolute; */
+	position: relative;
+	top: 20%;
+	/* margin-top: -400px; */
+	width: 1440px;
+	height: auto;
+	background: none;
+	background-color: rgb(206, 238, 206);
+	text-align: center;
+	left: 22%;
+	height: 300px;
+}
+header {
+    bottom: 550px;
+    display: block;
+    /* margin-top: -400px; */
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    /* height: 239px; */
+    /* min-width: 980px;
+    width: 100%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+header h1 {
+    box-sizing: content-box;
+    display: block;
+}
+
+.promos {
+    position: absolute;
+    z-index: 1;
+    bottom: 90px;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+
+.promos ul {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1024px;
+    width: 100%;
+    max-width: 1440px;
+    height: 200px;
+    text-align: center;
+}
+
+.promos ul li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    width: 25%;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+    list-style-position: outside;
+}
+
+#homefooter {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    min-width: 980px;
+    width: 100%;
+    height: 90px;
+    padding: 0;
+    color: #6e6e6e;
+    font-size: .8334em;
+    line-height: 1.2;
+    text-align: center;
+    zoom: 1;
+    background-color: orange;
+}
+
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+section,
+figure,
+figcaption {
+    display: block;
+}
+
+#homefooter .left {
+    display: flex;
+    float: left;
+    clear: both;
+    width: 49%;
+    padding-top: 1.5em;
+    text-align: left;
+    background-color: aqua;
+}
+
+#homefooter .right {
+    display: flex;
+    /* float: right; */
+    /* clear: both; */
+    width: 51%;
+    padding-top: 1.5em;
+    text-align: right;
+    background-color: brown;
+}
